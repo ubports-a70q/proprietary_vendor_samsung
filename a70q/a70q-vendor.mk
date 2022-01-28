@@ -18,9 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a70q/proprietary/etc/permissions/audiosphere.xml:system/etc/permissions/audiosphere.xml \
     vendor/samsung/a70q/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/samsung/a70q/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/samsung/a70q/proprietary/framework/audiosphere.jar:system/framework/audiosphere.jar \
-    vendor/samsung/a70q/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/samsung/a70q/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/samsung/a70q/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/a70q/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/samsung/a70q/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
@@ -1171,5 +1168,4 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     vendor.qti.hardware.fm@1.0 \
     libsdm-disp-vndapis \
-    libskeymaster4device \
-    TimeService
+    libskeymaster4device
